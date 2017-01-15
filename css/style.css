@@ -1,0 +1,74 @@
+body{
+	margin-bottom:0;
+	margin-left:0;
+	margin-top:0;
+	margin-right:0;
+	background-image: url(../image/fon.jpg);
+}
+#container{
+	width:800px;
+	height:auto;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 11px;
+	margin-bottom: 21px
+}
+#header{
+	height:300px;
+	background-image: url(../image/tal.jpg);
+	background-repeat:no-repeat;
+	
+	border-radius:30px 30px 0 0;
+	box-shadow:0 0 15px rgba(0,0,0,8);
+}
+#sidebar{
+	width:150px;
+	height:800px;
+	background-color:black;
+	opacity:0.8;
+	float:left;
+}
+#mainbody{
+	width:650px;
+	height:800px;
+	float:right;
+	background-color:black;
+	box-shadow:0 0 20px rgba(0,0,0,8);
+	opacity:0.5;
+}
+#footer{
+	height:50px;
+	clear:both;
+	background-color:black;
+	box-shadow:0 0 20px rgba(0,0,0,8); 
+	border-radius: 0 0 15px 15px;
+}
+#menu {
+	height:40px;
+	background-color:#1628b7;
+	margin-bottom:1px;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+}
+#menu li {
+	list-style-type:none;
+	float:left;
+	display: block;
+	width:160px;
+	height:40px;
+	text-align:center;
+	line-height:35px;
+	font-family:tahoma;
+	font-size:17px;
+}
+#menu li a{
+	text-decoration:none;
+	color:#303349
+}
+#menu li:Hover{
+	background-color:#182dce;
+	/* box-shadow:0 0 5px rgba(0,0,0,8;) */
+}
